@@ -1,15 +1,15 @@
 import React from "react";
 import { Card } from "semantic-ui-react";
+import "./Card.scss";
 
 const CardExampleLinkCardProp = () => (
-  <div>
+  <div className="Card">
     <Card
       link
       header="O'clock DWWM"
-      meta="Scientist"
+      meta="Etudes"
       description={[
-        "Rick is a genius scientist whose alcoholism and reckless,",
-        " nihilistic behavior are a source of concern for his family.",
+        "Etudes pour passer le titre pro DWWM avec l'école O'clock.",
       ].join("")}
     />
   </div>

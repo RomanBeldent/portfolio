@@ -1,3 +1,4 @@
+import React from "react";
 import "./Nav.scss";
 import { useState } from "react";
 
@@ -12,27 +13,22 @@ const Nav = () => {
       <ul className="Navbar_links">
         <li className="Navbar_item slideInDown-1">
           <a href="/" className="Navbar_link">
-            Profil
+            À propos
           </a>
         </li>
         <li className="Navbar_item slideInDown-2">
           <a href="/" className="Navbar_link">
-            Favoris
+            Services
           </a>
         </li>
         <li className="Navbar_item slideInDown-3">
           <a href="/" className="Navbar_link">
-            Messages
+            Formations
           </a>
         </li>
         <li className="Navbar_item slideInDown-4">
           <a href="/" className="Navbar_link">
-            Connexion
-          </a>
-        </li>
-        <li className="Navbar_item slideInDown-5">
-          <a href="/" className="Navbar_link">
-            Inscription
+            Contact
           </a>
         </li>
       </ul>
