@@ -3,7 +3,7 @@ import { Card } from "semantic-ui-react";
 import "./Card.scss";
 
 const CardExampleLinkCardProp = () => (
-  <div className="Card">
+  <div className="Card back">
     <Card
       link
       header="O'clock DWWM"

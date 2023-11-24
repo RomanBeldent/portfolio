@@ -4,4 +4,9 @@
     width: 50vw;
     margin-bottom: 2rem;
     margin-top: 2rem;
+
+    .ui.card,
+    .ui.cards>.card {
+        background-color: #1e5250;
+    }
 }
