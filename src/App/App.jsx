@@ -1,12 +1,17 @@
+import React from "react";
+import CardSection from "../components/CardSection/CardSection";
+import ContactForm from "../components/ContactForm/ContactForm";
 import Nav from "../components/Nav/Nav";
-import Card from "../components/Card/Card";
 import "./App.scss";
+import Footer from "../components/Footer/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Nav />
-      <Card />
+      <CardSection />
+      <ContactForm />
+      <Footer />
     </div>
   );
 };

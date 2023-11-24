@@ -1,0 +1,29 @@
+.ContactForm {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-title {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 2rem;
+}
+
+.first-line-inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textarea-input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.SendButton {
+    margin: 2rem;
+}
