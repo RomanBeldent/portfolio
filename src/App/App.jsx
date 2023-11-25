@@ -12,7 +12,7 @@ const App = () => {
       <AboutSection />
       <ContactForm />
       <Footer />
-    </div>
+    </div >
   );
 };
 
