@@ -3,18 +3,18 @@ import "./Header.scss";
 
 const Header = () => {
     return (
-        <div class="content">
-            <div class="intro">
+        <div className="content">
+            <div className="intro">
                 <h2>
                     Roman Beldent
                 </h2>
                 <h1>DÉVELOPPEUR WEB FULLSTACK</h1>
-                <a href="#contact" class="contact button">contact</a>
+                <a href="#contact" className="contact-button">CONTACT</a>
                 <ul>
-                    <li class="github">
+                    <li className="github">
                         <a href="https://github.com/RomanBeldent"> <img height="30" width="42" src="https://cdn.simpleicons.org/github/white" /></a>
                     </li>
-                    <li class="linkedin">
+                    <li className="linkedin">
                         <a href="https://www.linkedin.com/in/romanbeldent"> <img height="30" width="42" src="https://cdn.simpleicons.org/linkedin/white" /></a>
                     </li>
                 </ul>
