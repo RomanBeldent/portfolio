@@ -109,6 +109,17 @@ body {
   color: white;
 }
 
+h4 {
+  font-size: 22;
+  font-weight: bold;
+  color: #8B5FE7;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
 .about,
 .work,
 .contact,
@@ -119,6 +130,34 @@ body {
 ol,
 ul {
   list-style: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #73D8C6 0%, #5BA4D7 50%, #5BA4D7 100%);
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 50px;
+  display: block;
+  color: #ffffff;
+  font-size: 1.1rem !important;
+  font-weight: 900 !important;
+  font-family: "roboto";
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+.btn.cv {
+  width: 350px;
+  margin-top: 1rem;
+}
+
+.btn.contact {
+  margin: 10px;
 }
 
 blockquote,
