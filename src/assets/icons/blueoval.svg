@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>03BD97DE-B9FD-428C-8843-9C2C8D47BB1C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#50D7C4" offset="0%"></stop>
+            <stop stop-color="#1B93C9" offset="100%"></stop>
+        </linearGradient>
+        <path d="M11.5,391 C5.14872538,391 0,385.851275 0,379.5 C0,373.148725 5.14872538,368 11.5,368 C17.8512746,368 23,373.148725 23,379.5 C23,385.851275 17.8512746,391 11.5,391 Z M11.5,388 C16.1944204,388 20,384.19442 20,379.5 C20,374.80558 16.1944204,371 11.5,371 C6.80557963,371 3,374.80558 3,379.5 C3,384.19442 6.80557963,388 11.5,388 Z" id="path-2"></path>
+    </defs>
+    <g id="OnePageStan-Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-704.000000, -1890.000000)">
+        <g id="Formation" transform="translate(150.000000, 1459.000000)" fill-rule="nonzero">
+            <g id="timeline" transform="translate(558.000000, 67.000000)">
+                <g id="Oval">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#27273F" stroke-width="4" d="M11.5,393 C4.04415588,393 -2,386.955844 -2,379.5 C-2,372.044156 4.04415588,366 11.5,366 C18.9558441,366 25,372.044156 25,379.5 C25,386.955844 18.9558441,393 11.5,393 Z M11.5,386 C15.0898509,386 18,383.089851 18,379.5 C18,375.910149 15.0898509,373 11.5,373 C7.91014913,373 5,375.910149 5,379.5 C5,383.089851 7.91014913,386 11.5,386 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

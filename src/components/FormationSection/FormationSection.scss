@@ -59,5 +59,23 @@
 }
 
 .formations ul li:nth-child(2n) div {
-    left: 85px;
+    left: 53px;
+}
+
+.formations ul .first::after {
+    background-image: url("../../assets/icons/blueoval.svg");
+    top: 60px;
+}
+
+formations ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #27273f;
+    background-image: none;
+    width: 31px;
+    height: 31px;
 }
