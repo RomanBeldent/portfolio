@@ -1,11 +1,13 @@
 .row {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .resume {
     width: 40vw;
-    margin: 3rem;
+    margin: 0 3rem 3rem 3rem;
     line-height: 1.2rem;
     border-radius: 20px;
     background-color: #323C55;

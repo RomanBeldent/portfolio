@@ -14,7 +14,8 @@ const AboutSection = () => {
                 <div className="row">
                     <img style={{
                         width: 150,
-                        marginBottom: 300,
+                        height: 150,
+                        marginTop: 25,
                         //Below lines will help to set the border radius
                         borderBottomLeftRadius: 150,
                         borderBottomRightRadius: 150,

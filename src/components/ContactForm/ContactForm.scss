@@ -1,29 +1,13 @@
-#contactForm {
-    margin: 3rem;
+.info-form {
+    max-width: 30%;
+    line-height: 1.4rem;
+    background-image: url(../../assets/img/world.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.input-area {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.form-title {
-    font-size: larger;
-    font-weight: bolder;
-    margin: 2rem;
-}
-
-.first-line-inputs {
-    display: flex;
-    justify-content: space-around;
-}
-
-.textarea-input {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin: 3rem;
-}
-
-.SendButton {
-    margin: 2rem;
+    max-width: 70%;
 }
