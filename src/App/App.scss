@@ -114,12 +114,13 @@ section {
 
 body {
   font-family: "nimbus-bold";
-  line-height: 1;
   position: relative;
   height: 100vh;
   width: 100%;
   background: radial-gradient(#273047, #000d2e);
   color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h4 {
@@ -176,7 +177,7 @@ ul {
 }
 
 .btn.cv {
-  width: 350px;
+  width: 280px;
   margin-top: 1rem;
 }
 
