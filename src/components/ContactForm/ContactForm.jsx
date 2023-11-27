@@ -1,5 +1,5 @@
-import TextInput from "../../ui/TextInput/TextInput";
-import TextAreaInput from "../../ui/TextAreaInput/TextAreaInput";
+import NameInput from "../../ui/NameInput/NameInput";
+import MessageInput from "../../ui/MessageInput/MessageInput";
 import SendButton from "../../ui/SendButton/SendButton";
 import MailInput from "../../ui/MailInput/MailInput";
 import React from "react";
@@ -18,17 +18,21 @@ const ContactForm = () => {
                 <h3>
                     Contact
                 </h3>
-                <form className="ContactForm">
-                    <h2 className="form-title">Formulaire de Contact</h2>
-                    <div className="first-line-inputs">
-                        <TextInput />
-                        <MailInput />
+                <div className="row">
+                    <div className="info-form">
+                        <p>Si vous avez des questions ou un projet à me soumettre, n'hésitez pas à utiliser le formulaire ci-dessous pour me contacter. <br />
+                            Je serai ravi de vous aider dans la mesure de mes compétences </p>
                     </div>
-                    <div className="textarea-input">
-                        <TextAreaInput />
-                        <SendButton />
+                    <div className="input-area">
+                        <form id="contactForm" name="contact">
+                            <NameInput />
+                            <MailInput />
+                            <MessageInput />
+                            <SendButton />
+                        </form>
                     </div>
-                </form>
+
+                </div>
             </div>
         </section>
     );
