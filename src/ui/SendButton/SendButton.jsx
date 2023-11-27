@@ -4,8 +4,8 @@ import "./SendButton.scss";
 
 const SendButton = () => {
     return (
-        <div className="SendButton">
-            <button className="send-button" type="submit">
+        <div className="button-form">
+            <button className="btn send" type="submit">
                 Envoyer
             </button>
         </div>

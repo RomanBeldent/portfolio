@@ -131,6 +131,7 @@ h4 {
 h3 {
   font-size: 34px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .about,
@@ -176,6 +177,19 @@ ul {
 
 .btn.contact {
   margin: 10px;
+}
+
+.line {
+  height: 2px;
+  width: 2em;
+  background-color: #8B5FE7;
+  Margin-right: 0.5rem;
+}
+
+.line-display {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
 }
 
 blockquote,
