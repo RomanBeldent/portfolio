@@ -3,9 +3,11 @@ import "./Footer.scss";
 
 const Footer = () => {
     return (
-        <div className="Footer">
-            <p>Fais avec le cul ❤️</p>
-        </div>
+        <section id="footer" class="footer">
+            <div class="content">
+                <h6><a class="link" a="" href="/">Roman Beldent</a> © 2023 - Réalisé avec le cul 💜</h6>
+            </div>
+        </section>
     );
 };
 
