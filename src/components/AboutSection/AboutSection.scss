@@ -6,7 +6,7 @@
 .resume {
     width: 40vw;
     margin: 3rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
     line-height: 1.2rem;
     border-radius: 20px;
     background-color: #323C55;
@@ -24,4 +24,9 @@
     display: flex;
     align-items: center;
     margin-right: 5px;
+}
+
+.profile-pic {
+    position: absolute;
+    margin-bottom: 3rem;
 }
