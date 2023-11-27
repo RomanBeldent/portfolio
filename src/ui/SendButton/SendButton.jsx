@@ -6,7 +6,7 @@ const SendButton = () => {
     return (
         <div className="button-form">
             <button id="form-submit" className="btn send" type="submit">
-                Envoyer
+                Envoyer le message
             </button>
         </div>
     );
