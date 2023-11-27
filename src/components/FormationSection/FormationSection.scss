@@ -1,0 +1,63 @@
+.formations ul li {
+    list-style-type: none;
+    position: relative;
+    width: 2px;
+    margin: 0 auto;
+    background: #323C55;
+    border: solid 1px #323C55;
+}
+
+.formations ul li div {
+    position: relative;
+    background: #323C55;
+    background-color: rgb(47, 46, 75);
+    width: 487px;
+    border-radius: 10px;
+    background-color: #323C55;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.winter {
+    color: #18a4d3;
+}
+
+.salmon {
+    color: #f69673;
+}
+
+.green {
+    color: #319642;
+}
+
+.formations .date {
+    padding: 10px 30px 10px 30px;
+}
+
+.formations-list {
+    margin-top: 40px;
+}
+
+.formations h5 {
+    margin: 0px;
+    padding: 30px 30px 0 30px;
+    text-align: left;
+}
+
+.formations p {
+    padding: 10px 30px 30px 30px;
+    margin: 0 auto;
+}
+
+.formations ul li:nth-child(2n+1) div {
+    left: -540px;
+}
+
+.formations ul li:nth-child(2n) div {
+    left: 85px;
+}

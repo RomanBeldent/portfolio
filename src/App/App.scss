@@ -102,6 +102,24 @@ section {
   display: block;
 }
 
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 @font-face {
   font-family: 'nimbus-regular';
   src: url(../assets/fonts/nimbus-sans-l/nimbus-sans-l_regular.ttf);
@@ -139,6 +157,7 @@ h3 {
 .about,
 .work,
 .contact,
+.formations,
 .footer {
   margin-top: 100px;
 }
@@ -196,22 +215,4 @@ ul {
   display: flex;
   align-items: center;
   margin-right: 5px;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }

@@ -10,7 +10,7 @@ const Header = () => {
                 </h2>
                 <h1>DÉVELOPPEUR WEB FULLSTACK</h1>
                 <a href="#contact" className="btn contact">contact</a>
-                <ul>
+                <ul className="icons">
                     <li className="github">
                         <a href="https://github.com/RomanBeldent" target="_blank"> <img height="30" width="42" src="https://cdn.simpleicons.org/github/white" /></a>
                     </li>

@@ -27,10 +27,12 @@ const AboutSection = () => {
 
                     <div className="resume">
                         <p>
-                            Après 8ans dans l'audio-visuel (monteur son & bruiteur), j'ai décidé de me reconvertir dans le développement WEB avec <a className="link" href="https://oclock.io/" target="_blank">O'Clock</a>. <br /> Après 5 mois de formation intense, je souhaite continuer l'aventure avec eux dans une formation en alternance (fin Janvier 2024) «<a className="link" href="https://oclock.io/formations/CDA-alternance" target="_blank">concepteur développeur d'applications</a>», et suis à la recherche d'une entreprise. <br />
-                            Durant cette première expérience avec eux, je me suis plus orienté back-end en apprenant le framework Symfony, et suis maintenant en train d'apprendre node.js en autodidacte. A l'avenir, j'aspire à décortiquer JavaScript de tous les côtés et devenir développeur MERN.
+                            Après 8 ans dans l'audiovisuel (monteur son & bruiteur), j'ai décidé de me reconvertir dans le développement WEB avec <a className="link" href="https://oclock.io/" target="_blank">O'Clock</a>.
+                            <br /> Après 5 mois de formation intense, je souhaite continuer l'aventure avec eux dans une formation en alternance (fin Janvier 2024) «<a className="link" href="https://oclock.io/formations/CDA-alternance" target="_blank">concepteur développeur d'applications</a>», et je suis donc à la recherche d'une entreprise.
+
+                            <br /> Durant cette première expérience, je me suis davantage orienté back-end en apprenant le framework Symfony. Le détail des langages étudiés durant cette formation et celle à venir est presenté <a class="link" href="#">ci-dessous</a>. À l'avenir, j'aspire à décortiquer JavaScript de tous les côtés et devenir développeur MERN.
                             <br />
-                            En dehors de mon travail, je suis passionné de golf, qui contraste bien avec les journées entières passées à coder ces derniers temps.
+                            En dehors de mon travail, je suis passionné de golf - ce qui contraste avec les journées entières passées à coder ces derniers temps.
                         </p>
                         <a href="#" className="btn cv" target="_blank">télécharger mon cv</a>
                     </div>
