@@ -31,8 +31,8 @@
     color: #f69673;
 }
 
-.green {
-    color: #319642;
+.purple {
+    color: #d166fc;
 }
 
 .formations .date {
@@ -67,14 +67,24 @@
     top: 60px;
 }
 
-formations ul li::after {
+.formations ul .second::after {
+    background-image: url("../../assets/icons/redoval.svg");
+    top: 80px;
+}
+
+.formations ul .third::after {
+    background-image: url("../../assets/icons/violetoval.svg");
+    top: 80px;
+}
+
+.formations ul li::after {
     content: '';
     position: absolute;
     left: 50%;
     top: 80px;
     transform: translateX(-50%);
     border-radius: 50%;
-    background: #27273f;
+    background: #323C55;
     background-image: none;
     width: 31px;
     height: 31px;

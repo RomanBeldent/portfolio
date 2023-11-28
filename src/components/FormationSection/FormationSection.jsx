@@ -41,7 +41,7 @@ const FormationSection = () => {
                             <h5>
                                 Autodidacte
                             </h5>
-                            <p className="green date">Actuellement</p>
+                            <p className="purple date">Actuellement</p>
                             <p>Le diplôme du BEP Systèmes Electroniques Numériques (SEN) valide un ensemble de connaissances et de compétences générales et professionnelles, intégrées dans le référentiel du Baccalauréat Professionnel Systèmes Electroniques Numériques (SEN).</p>
                         </div>
                     </li>
