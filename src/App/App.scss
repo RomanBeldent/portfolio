@@ -130,10 +130,6 @@ table {
   src: url(../assets/fonts/nimbus-sans-l/nimbus-sans-l_bold.ttf);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "nimbus-bold";
   position: relative;
@@ -166,6 +162,7 @@ h3 {
 
 .link {
   color: #73D8C6;
+  cursor: pointer;
 }
 
 ol,
