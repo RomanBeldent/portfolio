@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutSection.scss";
 import profile from "../../assets/img/profile.png";
+import cv from "../../assets/img/RomanBeldentCV.pdf";
 import { Link } from "react-scroll";
 
 const AboutSection = () => {
@@ -35,7 +36,7 @@ const AboutSection = () => {
                             <br />
                             En dehors de mon travail, je suis passionné de golf - ce qui contraste avec les journées entières passées à coder ces derniers temps.
                         </p>
-                        <a href="#" className="btn cv" target="_blank">télécharger mon cv</a>
+                        <a href={cv} className="btn cv" target="_blank">télécharger mon cv</a>
                     </div>
                 </div>
             </div>

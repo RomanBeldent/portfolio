@@ -49,7 +49,8 @@ const FormationSection = () => {
                                 Autodidacte
                             </h5>
                             <p className="purple date">En cours - à l'avenir</p>
-                            <p>De mon côté, je suis en train d'apprendre node.js en suivant une formation de <a className="link" href="https://grafikart.fr/tutoriels/javascript-server-nodejs-2080" target="_blank"> Grafikart</a>. L'objectif est de pouvoir m'amuser avec ce langage et monter des projets avec un ami développeur React. Ensuite, j'ai envie d'apprendre ce framework afin d'être à l'aise en front tout comme en back et de pouvoir jongler sur les deux tableaux.</p>
+                            <p>De mon côté, je suis en train d'apprendre node.js en suivant une formation de <a className="link" href="https://grafikart.fr/tutoriels/javascript-server-nodejs-2080" target="_blank"> Grafikart</a>. L'objectif est de pouvoir m'amuser avec ce langage et monter des projets avec un ami développeur React. <br />
+                                Ensuite, j'ai envie d'apprendre ce framework afin d'être à l'aise en front tout comme en back et de pouvoir jongler sur les deux tableaux.</p>
                         </div>
                     </li>
                 </ul >
