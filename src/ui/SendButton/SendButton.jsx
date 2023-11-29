@@ -8,7 +8,7 @@ const SendButton = () => {
             <button id="form-submit" className="btn send" type="submit">
                 Envoyer le message
             </button>
-        </div>
+        </div >
     );
 };
 
