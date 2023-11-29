@@ -130,6 +130,11 @@ table {
   src: url(../assets/fonts/nimbus-sans-l/nimbus-sans-l_bold.ttf);
 }
 
+@font-face {
+  font-family: 'nimbus-bold-c';
+  src: url(../assets/fonts/nimbus-sans-l/nimbus-sans-l_bold-condensed.ttf);
+}
+
 body {
   font-family: "nimbus-bold";
   position: relative;
@@ -137,12 +142,7 @@ body {
   width: 100%;
   background-color: #273047;
   color: white;
-}
-
-h4 {
-  font-size: 22;
-  font-weight: bold;
-  color: #8B5FE7;
+  font-variant-ligatures: no-common-ligatures;
 }
 
 h3 {
@@ -151,6 +151,20 @@ h3 {
   margin-top: 10px;
   text-transform: uppercase;
 }
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #8B5FE7;
+}
+
+h5 {
+  font-family: "nimbus-bold-c";
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 
 .about,
 .work,

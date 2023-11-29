@@ -1,3 +1,7 @@
+.formations-titles {
+    text-align: center;
+}
+
 .formations ul li {
     list-style-type: none;
     position: relative;
@@ -52,6 +56,20 @@
 .formations p {
     padding: 10px 30px 30px 30px;
     margin: 0 auto;
+    font-family: "nimbus-regular";
+    font-weight: bold;
+}
+
+.oclock {
+    color: #FFB400;
+}
+
+.oclock:hover {
+    color: #ff7b00;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .formations ul li:nth-child(2n+1) div {
