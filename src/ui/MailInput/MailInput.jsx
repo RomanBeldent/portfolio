@@ -4,7 +4,7 @@ import "./MailInput.scss";
 const MailInput = () => {
     return (
         <div className="email">
-            <input type="email" id="email" name="user_email" placeholder="Email*" />
+            <input type="email" id="email" name="user_email" placeholder="Email*" required/>
         </div>
     );
 };
