@@ -23,7 +23,7 @@ const FormationSection = () => {
                                 <a className="oclock" href="https://oclock.io/formations/developpeur-web" target="_blank">O'Clock </a>- Formation Développeur Web Fullstack PHP
                             </h5>
                             <p className="winter date">Juin 2023 - Novembre 2023</p>
-                            <p>Formation en téléprésentiel. Les compétences que j'ai acquises durant cette formation sont HTML, CSS, JavaScript Vanilla, PHP, SQL et GitHub. <br />
+                            <p>Formation en téléprésentiel. Les compétences que j'ai acquises durant cette formation sont : <br /> <span className="strong">HTML, CSS, JavaScript Vanilla, PHP, SQL et GitHub. </span><br />
                                 Je me suis ensuite spécialisé en back-end avec le framework Symfony. <br />
                                 Cette formation certifie le Titre Professionnel Développeur Web et Web Mobile niveau 5 (équivalent à un diplôme bac+2).</p>
                         </div>
@@ -36,7 +36,7 @@ const FormationSection = () => {
                             </h5>
 
                             <p className="salmon date">Fin Janvier 2024 - Septembre 2025</p>
-                            <p>Formation en téléprésentiel. Les technologies que je vais acquérir durant cette formation sont React en TypeScript, Node.js, Express.js, Nest.js, MongoDB, NoSQL et Docker.
+                            <p>Formation en téléprésentiel. Les technologies que je vais acquérir durant cette formation sont : <span className="strong"><br />React en TypeScript, Node.js, Express.js, Nest.js, MongoDB, NoSQL et Docker.</span>
                                 <br /> <span className="underline">Rythme</span>: 2 semaines en entreprise, 1 semaine d’école. <br />
                                 <span className="underline">Durée</span >: 15 mois d’alternance + 3 mois 100% en entreprise. <br />
                                 Cette formation certifie le Titre Professionnel Développeur Web et Web Mobile niveau 6 (équivalent à un diplôme bac+4).</p>
