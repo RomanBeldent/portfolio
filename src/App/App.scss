@@ -121,12 +121,22 @@ table {
 }
 
 @font-face {
-  font-family: 'kollektif';
-  src: url(../assets/fonts/kollektif/Kollektif.ttf);
+  font-family: 'nimbus-regular';
+  src: url(../assets/fonts/nimbus-sans-l/nimbus-sans-l_regular.ttf);
+}
+
+@font-face {
+  font-family: 'nimbus-bold';
+  src: url(../assets/fonts/nimbus-sans-l/nimbus-sans-l_bold.ttf);
+}
+
+@font-face {
+  font-family: 'nimbus-bold-c';
+  src: url(../assets/fonts/nimbus-sans-l/nimbus-sans-l_bold-condensed.ttf);
 }
 
 body {
-  font-family: "kollektif";
+  font-family: "nimbus-bold";
   position: relative;
   height: 100vh;
   width: 100%;
@@ -149,7 +159,7 @@ h4 {
 }
 
 h5 {
-  font-family: "kollektif";
+  font-family: "nimbus-bold";
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -187,7 +197,7 @@ ul {
   color: #ffffff;
   font-size: 1.1rem !important;
   font-weight: 900 !important;
-  font-family: "kollektif";
+  font-family: "nimbus-bold";
   cursor: pointer;
   border: 0;
   outline: none;
