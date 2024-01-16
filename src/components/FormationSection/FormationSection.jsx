@@ -23,7 +23,7 @@ const FormationSection = () => {
                                 <a className="oclock" href="https://oclock.io/formations/developpeur-web" target="_blank">O'Clock </a>- Formation Développeur Web Fullstack PHP
                             </h5>
                             <p className="winter date">Juin 2023 - Novembre 2023</p>
-                            <p>Formation en téléprésentiel. Les compétences que j'ai acquises durant cette formation sont : <br /> <span className="strong">HTML, CSS, JavaScript Vanilla, PHP, SQL et GitHub. </span><br />
+                            <p>Formation en téléprésentiel. Les compétences que j'ai acquises durant cette formation sont : <br /> <span className="strong">HTML, CSS, JavaScript Vanilla, PHP, SQL, Git, méthodologie Agile. </span><br />
                                 Je me suis ensuite spécialisé en back-end avec le framework Symfony. <br />
                                 Cette formation certifie le Titre Professionnel Développeur Web et Web Mobile niveau 5 (équivalent à un diplôme bac+2).</p>
                         </div>
