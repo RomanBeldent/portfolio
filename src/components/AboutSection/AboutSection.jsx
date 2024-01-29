@@ -30,7 +30,7 @@ const AboutSection = () => {
                     <div className="resume">
                         <p>
                             Après 8 ans dans l'audiovisuel (monteur son & bruiteur), j'ai décidé de me reconvertir dans le développement WEB avec <a className="link" href="https://oclock.io/" target="_blank">O'Clock</a>.
-                            <br /> Après 5 mois de formation intense, je souhaite continuer l'aventure avec eux dans une formation en alternance (fin Janvier 2024) «<a className="link" href="https://oclock.io/formations/CDA-alternance" target="_blank">concepteur développeur d'applications</a>» et je suis donc à la recherche d'une entreprise.
+                            <br /> Après 5 mois de formation intense, je souhaite continuer a acquérir de nouvelles compétences via une alternance, «<a className="link" href="https://oclock.io/formations/CDA-alternance" target="_blank">concepteur développeur d'applications</a>» et je suis donc à la recherche d'une entreprise.
 
                             <br /> Durant cette première expérience, je me suis davantage orienté back-end en apprenant le framework Symfony. Le détail des langages étudiés durant cette formation et celle à venir est presenté <Link className="link" to="formations" spy={true} smooth={true} offset={-10} duration={500} >ci-dessous</Link>. À l'avenir, j'aspire à décortiquer JavaScript de tous les côtés et devenir développeur MERN.
                             <br />
