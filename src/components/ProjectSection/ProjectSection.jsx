@@ -1,10 +1,13 @@
 import React from "react";
 import "./ProjectSection.scss";
+import melodica from "../../assets/img/melodica.png"
 
 const ProjectSection = () => {
     return (
-        <section id="projects">
-            <div className="line-display">
+        <section id="projects" className="projects">
+            <div className="content">
+                <div className="formations-titles">
+                    <div className="line-display">
                         <div className="line"> </div>
                         <h4>
                             Mes projets
@@ -13,9 +16,21 @@ const ProjectSection = () => {
                     <h3>
                         Mélodica
                     </h3>
-                    <div className="projects">
-                        azdazd
-                    </div>
+                </div>
+                <div className="project-solo">
+                    <p>
+                        Durant mon projet de fin de formation, j'ai eu l'occasion de réaliser la partie back-end de Mélodica avec une équipe formidable. L'objectif de ce site web, est de mettre en contact des artistes de musique, avec des organisateurs d'événements et inversement (professionnel ou particulier).
+                        <img style=
+                            {{
+                                width: 1000,
+                                padding: 30,
+                                borderRadius: 50
+                            }}
+                            src={melodica}
+                            alt="melodica-img" />
+                    </p>
+                </div>
+            </div>
         </section>
     );
 };

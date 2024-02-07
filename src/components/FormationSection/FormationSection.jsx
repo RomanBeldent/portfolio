@@ -32,12 +32,12 @@ const FormationSection = () => {
                     <li className="second">
                         <div>
                             <h5>
-                                <a className="oclock" href="https://oclock.io/formations/CDA-alternance" target="_blank">O'Clock </a>- Formation Concepteur Développeur d'Applications Web - Alternance
+                                <a className="oclock" href="https://www.wildcodeschool.com/fr-fr/formations-developpement-web/formation-developpeur-web-alternance" target="_blank">WILD CODE SCHOOL </a>- Formation Concepteur Développeur d'Applications Web - Alternance
                             </h5>
 
-                            <p className="salmon date">Fin Janvier 2024 - Septembre 2025</p>
-                            <p>Formation en téléprésentiel. Les technologies que je vais acquérir durant cette formation sont : <span className="strong"><br />React en TypeScript, Node.js, Express.js, Nest.js, MongoDB, NoSQL et Docker.</span>
-                                <br /> <span className="underline">Rythme</span>: 2 semaines en entreprise, 1 semaine d’école. <br />
+                            <p className="salmon date">Disponible immédiatement</p>
+                            <p>Formation en téléprésentiel. Dans les grandeslignes, les technologies qui seront abordées sont : <span className="strong"><br />React en TypeScript, React Native, Node.js, Express.js, Next.js, GraphQL, MongoDB, NoSQL et Docker.</span>
+                                <br /> <span className="underline">Rythme</span>: 3 semaines en entreprise, 1 semaine d’école. <br />
                                 <span className="underline">Durée</span >: 15 mois d’alternance + 3 mois 100% en entreprise. <br />
                                 Cette formation certifie le Titre Professionnel Développeur Web et Web Mobile niveau 6 (équivalent à un diplôme bac+4).</p>
 
