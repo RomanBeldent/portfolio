@@ -23,8 +23,8 @@ const ProjectSection = () => {
                         Durant mon projet de fin de formation, j'ai eu l'occasion de réaliser la partie back-end de Mélodica avec une équipe formidable. L'objectif de ce site web, est de mettre en contact des artistes de musique, avec des organisateurs d'événements et inversement (professionnel ou particulier).
                         <img style=
                             {{
-                                padding: 30,
-                                borderRadius: 50
+                                padding: 20,
+                                borderRadius: 30,
                             }}
                             src={melodica}
                             alt="melodica-img" />
