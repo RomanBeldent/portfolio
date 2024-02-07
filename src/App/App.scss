@@ -166,11 +166,17 @@ h5 {
   text-transform: uppercase;
 }
 
+.content {
+  max-width: 70vw;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .about,
 .work,
 .contact,
 .formations,
+.projects,
 .footer {
   margin-top: 100px;
 }
