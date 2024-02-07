@@ -36,7 +36,9 @@ const AboutSection = () => {
                             <br />
                             En dehors de mon travail, je suis passionné de golf - ce qui contraste avec les journées entières passées à coder ces derniers temps.
                         </p>
+                        <div className="cv-button">
                         <a href={cv} className="btn cv" target="_blank">télécharger mon cv</a>
+                        </div>
                     </div>
                 </div>
             </div>
