@@ -1,6 +1,8 @@
 import React from "react";
 import "./ProjectSection.scss";
-import melodica from "../../assets/img/melodica.png"
+import melodica from "../../assets/img/melodica.png";
+import pokedex from "../../assets/img/pokedex.png";
+import pokeball from "../../assets/img/pokeball.png";
 
 const ProjectSection = () => {
     return (
@@ -28,6 +30,28 @@ const ProjectSection = () => {
                                 }}
                                 src={melodica}
                                 alt="melodica-img" />
+                        </p>
+                    </div>
+                </div>
+                <div className="project-img">
+                <img className="pokeball" src={pokeball} alt="pokeball-img" />
+                <h3>
+                    Pokédex
+                </h3>
+                <img className="pokeball" src={pokeball} alt="pokeball-img" />
+                </div>
+                <div className="projects-content">
+                    <div className="project-solo">
+                        <p>
+                            
+                            J'ai réalisé un pokédex en utilisant React grâce à une formation de Simon Dieny. Ce tuto m'a donné de bonnes bases pour progresser sur React, et je me suis lancé dans des sides-projects perso grâce à cette formation ! 
+                            <img style=
+                                {{
+                                    padding: 20,
+                                    borderRadius: 30,
+                                }}
+                                src={pokedex}
+                                alt="pokedex-img" />
                         </p>
                     </div>
                 </div>
