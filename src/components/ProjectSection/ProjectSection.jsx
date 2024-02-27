@@ -3,6 +3,8 @@ import "./ProjectSection.scss";
 import melodica from "../../assets/img/melodica.png";
 import pokedex from "../../assets/img/pokedex.png";
 import pokeball from "../../assets/img/pokeball.png";
+import melodicaIcon from "../../assets/img/melodica-icon.png";
+
 
 const ProjectSection = () => {
     return (
@@ -15,9 +17,13 @@ const ProjectSection = () => {
                             Mes projets
                         </h4>
                     </div>
+                </div>
+                <div className="project-img">
+                    <img className="melodica-icon" src={melodicaIcon} alt="melodica-icon-img" />
                     <h3>
                         Mélodica
                     </h3>
+                    <img className="melodica-icon n2" src={melodicaIcon} alt="melodica-icon-img" />
                 </div>
                 <div className="projects-content">
                     <div className="project-solo">
@@ -34,24 +40,26 @@ const ProjectSection = () => {
                     </div>
                 </div>
                 <div className="project-img">
-                <img className="pokeball" src={pokeball} alt="pokeball-img" />
-                <h3>
-                    Pokédex
-                </h3>
-                <img className="pokeball" src={pokeball} alt="pokeball-img" />
+                    <img className="pokeball" src={pokeball} alt="pokeball-img" />
+                    <h3>
+                        Pokédex
+                    </h3>
+                    <img className="pokeball n2" src={pokeball} alt="pokeball-img" />
                 </div>
                 <div className="projects-content">
                     <div className="project-solo">
                         <p>
-                            
-                            J'ai réalisé un pokédex en utilisant React grâce à une formation de Simon Dieny. Ce tuto m'a donné de bonnes bases pour progresser sur React, et je me suis lancé dans des sides-projects perso grâce à cette formation ! 
-                            <img style=
-                                {{
-                                    padding: 20,
-                                    borderRadius: 30,
-                                }}
-                                src={pokedex}
-                                alt="pokedex-img" />
+
+                            J'ai réalisé le grand, le fameux, l'incontournable, et surtout l'original, accueillons le bien fort : LE POKEDEX ! J'ai utilisé React grâce à une formation de Simon Dieny. Ce tuto m'a donné de bonnes bases pour progresser sur React, et je me suis lancé dans des sides-projects perso grâce à cette formation. Merci Simon ! Vous pouvez y faire un petit tour <a className="link" href="https://react-pokemons-app-tau.vercel.app/pokemons" target="_blank">ici</a>.
+                            <a href="https://react-pokemons-app-tau.vercel.app/pokemons" target="_blank">
+                                <img style=
+                                    {{
+                                        padding: 20,
+                                        borderRadius: 30,
+                                    }}
+                                    src={pokedex}
+                                    alt="pokedex-img" />
+                            </a>
                         </p>
                     </div>
                 </div>

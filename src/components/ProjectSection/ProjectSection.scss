@@ -29,7 +29,21 @@ img {
     margin-right: 5vh;
 }
 
+.pokeball.n2 {
+    transform: scaleX(-1);
+}
+
 .project-img {
     display: flex;
     justify-content: center;
+}
+
+.melodica-icon {
+    width: 3vw;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.melodica-icon.n2 {
+    transform: scaleX(-1);
 }
