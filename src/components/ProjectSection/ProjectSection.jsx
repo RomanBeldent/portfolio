@@ -4,6 +4,9 @@ import melodica from "../../assets/img/melodica.png";
 import pokedex from "../../assets/img/pokedex.png";
 import pokeball from "../../assets/img/pokeball.png";
 import melodicaIcon from "../../assets/img/melodica-icon.png";
+import rocketIcon from "../../assets/img/rocket-icon.png"
+import spacexHome from "../../assets/img/spacex-home.jpg"
+import spacexDetail from "../../assets/img/spacex-detail.jpg"
 
 
 const ProjectSection = () => {
@@ -60,6 +63,34 @@ const ProjectSection = () => {
                                     src={pokedex}
                                     alt="pokedex-img" />
                             </a>
+                        </p>
+                    </div>
+                </div>
+                <div className="project-img">
+                    <img className="pokeball" src={rocketIcon} alt="pokeball-img" />
+                    <h3>
+                        SpaceX Rocket
+                    </h3>
+                    <img className="pokeball n2" src={rocketIcon} alt="pokeball-img" />
+                </div>
+                <div className="projects-content">
+                    <div className="project-solo">
+                        <p>
+                            J'ai réalisé ce mini-projet qui liste quelques fusées de <a href="https://www.spacex.com/">SpaceX</a>, ça m'a mené à me former sur différentes technologies que je connaissais pas et que je voulais découvrir. En front-end, j'ai utilisé le framework Vue 3 et Electron. Côté back-end j'ai utilisé Node.js, express, découvert MongoDB et son ORM mongoose.
+                                <img style=
+                                    {{
+                                        padding: 20,
+                                        borderRadius: 30,
+                                    }}
+                                    src={spacexHome}
+                                    alt="spaceX-home" />
+                                     <img style=
+                                    {{
+                                        padding: 20,
+                                        borderRadius: 30,
+                                    }}
+                                    src={spacexDetail}
+                                    alt="spaceX-detail" />
                         </p>
                     </div>
                 </div>
