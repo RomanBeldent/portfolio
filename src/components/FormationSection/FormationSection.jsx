@@ -36,7 +36,7 @@ const FormationSection = () => {
                             </h5>
 
                             <p className="salmon date">Disponible immédiatement</p>
-                            <p>Formation en téléprésentiel. Dans les grandeslignes, les technologies qui seront abordées sont : <span className="strong"><br />React en TypeScript, React Native, Node.js, Express.js, Next.js, GraphQL, MongoDB, NoSQL et Docker.</span>
+                            <p>Formation en téléprésentiel. Dans les grandes lignes, les technologies qui seront abordées sont : <span className="strong"><br />React en TypeScript, React Native, Node.js, Express.js, Next.js, GraphQL, MongoDB, NoSQL et Docker.</span>
                                 <br /> <span className="underline">Rythme</span>: 3 semaines en entreprise, 1 semaine d’école. <br />
                                 <span className="underline">Durée</span >: 15 mois d’alternance + 3 mois 100% en entreprise. <br />
                                 Cette formation certifie le Titre Professionnel Développeur Web et Web Mobile niveau 6 (équivalent à un diplôme bac+4).</p>
@@ -49,8 +49,7 @@ const FormationSection = () => {
                                 Autodidacte
                             </h5>
                             <p className="purple date">En cours - à l'avenir</p>
-                            <p>De mon côté, je suis en train d'apprendre <span className="strong">React </span>et <span className="strong">Node.js</span> en suivant diverses formations en ligne, notamment <a className="link" href="https://www.youtube.com/@codeursenior" target="_blank"> Simon Dieny</a>. L'objectif est de pouvoir m'amuser en réalisant des side-projects.
-                                J'ai envie d'être à l'aise en front tout comme en back et de pouvoir jongler sur les deux tableaux.</p>
+                            <p>En ce moment, je réalise le site d'une avocate avec Wordpress, Après avoir utilisé React et Vue dernièrement, j'ai envie de pouvoir réaliser des sites vitrines de manière efficace avec cet outil que j'ai auparavant utilisé durant ma formation chez O'Clock.</p>
                         </div>
                     </li>
                 </ul >

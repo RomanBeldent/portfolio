@@ -76,7 +76,7 @@ const ProjectSection = () => {
                 <div className="projects-content">
                     <div className="project-solo">
                         <p>
-                            J'ai réalisé ce mini-projet qui liste quelques fusées de <a href="https://www.spacex.com/">SpaceX</a>, ça m'a mené à me former sur différentes technologies que je ne connaissais pas et que je voulais découvrir. En front-end, j'ai utilisé le framework Vue 3 et Electron. Côté back-end j'ai utilisé Node.js, express, découvert MongoDB et l'ODM mongoose.
+                            J'ai réalisé ce mini-projet en quelques jours. L'application consiste à lister des fusées de l'entreprise américaine <a href="https://www.spacex.com/">SpaceX</a>. <br/> Cela m'a mené à me former sur différentes technologies que je ne connaissais pas et que je voulais découvrir. En front-end, j'ai utilisé le framework Vue 3 et Electron. Côté back-end j'ai utilisé Node.js, express, MongoDB et l'ODM mongoose. Vous pouvez accéder librement au code sur mon profil <a href="https://github.com/RomanBeldent" target="_blank">GitHub</a>.
                                 <img style=
                                     {{
                                         padding: 20,
