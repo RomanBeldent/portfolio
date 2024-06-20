@@ -26,7 +26,7 @@
     .btn.cv {
         width: 280px;
         margin-top: 1rem;
-      }
+    }
 
 }
 
@@ -41,28 +41,37 @@
         margin-top: 40px;
     }
 
-    .resume {
-        border-radius: 20px;
-        background-color: #323C55;
-        padding: 20px;
-        font-family: "nimbus-regular";
-        font-size: 32px;
-        margin-top: 50px;
-        width: 95vw;
+    .profil-picture {
+        width: 380px;
+        height: 380px;
+        margin-top: 25px;
+        border-radius: 150px;
+        overflow: hidden;
+        box-shadow: 1px 5px 15px #6477b4;
     }
 
-    .profile-pic {
-        position: absolute;
-        margin-bottom: 3rem;
-    }
+.resume {
+    border-radius: 20px;
+    background-color: #323C55;
+    padding: 20px;
+    font-family: "nimbus-regular";
+    font-size: 32px;
+    margin-top: 50px;
+    width: 95vw;
+}
 
-    .btn.cv {
-        width: 70vw;
-        margin: 2rem;
-      }
+.profile-pic {
+    position: absolute;
+    margin-bottom: 3rem;
+}
 
-      .cv-button {
-        display: flex;
-        justify-content: center;
-      }
+.btn.cv {
+    width: 70vw;
+    margin: 2rem;
+}
+
+.cv-button {
+    display: flex;
+    justify-content: center;
+}
 }

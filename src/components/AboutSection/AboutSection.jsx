@@ -14,18 +14,7 @@ const AboutSection = () => {
                 </div>
                 <h3>Qui je suis</h3>
                 <div className="row">
-                    <img style={{
-                        width: 150,
-                        height: 150,
-                        marginTop: 25,
-                        //Below lines will help to set the border radius
-                        borderBottomLeftRadius: 150,
-                        borderBottomRightRadius: 150,
-                        borderTopRightRadius: 150,
-                        borderTopLeftRadius: 150,
-                        overflow: "hidden",
-                        boxShadow: "1px 10px 30px #6477b4",
-                    }} src={profile} alt="" />
+                    <img className="profil-picture" src={profile} alt="" />
 
                     <div className="resume">
                         <p>
