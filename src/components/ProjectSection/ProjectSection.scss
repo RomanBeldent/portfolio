@@ -50,6 +50,18 @@ img {
     transform: scaleX(-1);
 }
 
+
+.rocket {
+    width: 4vw;
+    height: 7vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.rocket.n2 {
+    transform: scaleX(-1);
+}
+
 @media(max-width: 1150px) {
 
 .project-solo {
@@ -65,13 +77,25 @@ img {
 }
 
 .pokeball {
-    width: 15vw;
+    width: 11vw;
     height: 5vh;
     margin-left: 5vh;
     margin-right: 5vh;
 }
 
 .pokeball.n2 {
+    transform: scaleX(-1);
+}
+
+.rocket {
+    width: 15vw;
+    height: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 40px;
+}
+
+.rocket.n2 {
     transform: scaleX(-1);
 }
 

@@ -67,11 +67,11 @@ const ProjectSection = () => {
                     </div>
                 </div>
                 <div className="project-img">
-                    <img className="pokeball" src={rocketIcon} alt="pokeball-img" />
+                    <img className="rocket" src={rocketIcon} alt="pokeball-img" />
                     <h3>
                         SpaceX Rocket
                     </h3>
-                    <img className="pokeball n2" src={rocketIcon} alt="pokeball-img" />
+                    <img className="rocket n2" src={rocketIcon} alt="pokeball-img" />
                 </div>
                 <div className="projects-content">
                     <div className="project-solo">
