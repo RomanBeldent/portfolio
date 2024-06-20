@@ -48,8 +48,8 @@ const FormationSection = () => {
                             <h5>
                                 Autodidacte
                             </h5>
-                            <p className="purple date">En cours - à l'avenir</p>
-                            <p>En ce moment, je réalise le site d'une avocate avec Wordpress, Après avoir utilisé React et Vue dernièrement, j'ai envie de pouvoir réaliser des sites vitrines de manière efficace avec cet outil que j'ai auparavant utilisé durant ma formation chez O'Clock.</p>
+                            <p className="purple date">En ce moment - à l'avenir</p>
+                            <p>Dernièrement, j'ai réalisé des applications telles, qu'un pokédex, en TypeScript et node.js. Ensuite, j'ai réalisé une application SpaceX Rocket avec une API fonctionnelle, qui consiste à lister des fusées provenant directement du site SpaceX. J'ai utilisé vue3, Electron, node.js et mongodb pour réaliser ce projet. En ce moment, je réalise le site d'une avocate en React. </p>
                         </div>
                     </li>
                 </ul >
