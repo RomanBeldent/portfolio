@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutSection.scss";
 import profile from "../../assets/img/profile.png";
-import cv from "../../assets/img/RomanBeldentCV.pdf";
+import cv from "../../assets/img/CV_ROMAN_BELDENT.pdf";
 import { Link } from "react-scroll";
 
 const AboutSection = () => {

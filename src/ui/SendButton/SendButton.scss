@@ -6,3 +6,10 @@
 .button-form {
     align-self: center;
 }
+
+@media(max-width: 1150px) {
+    .btn.send {
+        width: 500px;
+        margin-top: 2rem;
+    }
+}

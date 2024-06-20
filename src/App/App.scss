@@ -166,10 +166,79 @@ h5 {
   text-transform: uppercase;
 }
 
-.content {
-  max-width: 70vw;
-  margin: 0 auto;
-  padding: 0 15px;
+@media(min-width: 1800px) {
+  .content {
+    max-width: 70vw;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .btn {
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #73D8C6 0%, #5BA4D7 50%, #5BA4D7 100%);
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 50px;
+    display: block;
+    color: #ffffff;
+    font-size: 1.1rem !important;
+    font-weight: 900 !important;
+    font-family: "nimbus-bold";
+    cursor: pointer;
+    border: 0;
+    outline: none;
+  }
+}
+
+// Breakpoint smartphone tablet
+
+@media(max-width: 1150px) {
+  h3 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 16px;
+    text-transform: uppercase;
+  }
+  
+  
+  h4 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #8B5FE7;
+  }
+  
+  h5 {
+    font-family: "nimbus-bold-c";
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .content {
+    padding: 0 15px;
+  }
+
+  .btn {
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #73D8C6 0%, #5BA4D7 50%, #5BA4D7 100%);
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 50px;
+    display: block;
+    color: #ffffff;
+    font-size: 2.5rem !important;
+    font-weight: 900 !important;
+    font-family: "nimbus-bold";
+    cursor: pointer;
+    border: 0;
+    outline: none;
+  }
 }
 
 .about,
@@ -191,24 +260,6 @@ ul {
   list-style: none;
 }
 
-.btn {
-  text-transform: uppercase;
-  background-image: linear-gradient(to right, #73D8C6 0%, #5BA4D7 50%, #5BA4D7 100%);
-  padding: 15px 30px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  border-radius: 50px;
-  display: block;
-  color: #ffffff;
-  font-size: 1.1rem !important;
-  font-weight: 900 !important;
-  font-family: "nimbus-bold";
-  cursor: pointer;
-  border: 0;
-  outline: none;
-}
 
 .btn:hover {
   background-position: right center;

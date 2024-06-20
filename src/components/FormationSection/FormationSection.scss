@@ -132,20 +132,21 @@
         margin: 0px;
         padding: 30px 30px 0 30px;
         text-align: left;
+        font-size: 38px;
     }
 
     .formations p {
         padding: 10px 30px 30px 30px;
         margin: 0 auto;
         font-family: "nimbus-regular";
-        font-size: 16px;
+        font-size: 32px;
     }
 
     .formations ul li div {
         position: relative;
         background: #323C55;
         background-color: rgb(47, 46, 75);
-        width: 80vw;
+        width: 95vw;
         border-radius: 10px;
         background-color: #323C55;
         font-size: 14px;
@@ -207,10 +208,6 @@
 
     .line-display {
        justify-content: center;
-    }
-
-    .resume {
-        width: 60vw;
     }
 
     .row {

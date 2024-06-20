@@ -26,3 +26,29 @@ textarea {
     appearance: none;
     box-shadow: none !important;
 }
+
+@media(max-width: 1150px) {
+
+    input,
+    textarea {
+        background: #323C55;
+        border: 2px solid #323C55;
+        color: #ffffff;
+        border-radius: 50px;
+        height: 60px;
+        padding: 0 20px;
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        outline: none;
+        font-size: 2rem;
+        font-weight: 400;
+        resize: none;
+        font-family: "nimbus-regular";
+        font-variant-ligatures: no-common-ligatures;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        box-shadow: none !important;
+    }
+}

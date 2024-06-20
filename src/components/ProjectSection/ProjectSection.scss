@@ -2,6 +2,8 @@ img {
     width: 100%;
 }
 
+@media(min-width: 1150px) {
+}
 .project-solo {
     width: 55%;
     border-radius: 20px;
@@ -46,4 +48,36 @@ img {
 
 .melodica-icon.n2 {
     transform: scaleX(-1);
+}
+
+@media(max-width: 1150px) {
+
+.project-solo {
+    width: 95vw;
+    border-radius: 20px;
+    background-color: #323C55;
+    padding: 20px;
+    line-height: 2.5rem;
+    font-family: "nimbus-regular";
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.pokeball {
+    width: 15vw;
+    height: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.pokeball.n2 {
+    transform: scaleX(-1);
+}
+
+.melodica-icon {
+    width: 13vw;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
 }
