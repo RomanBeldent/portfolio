@@ -18,9 +18,13 @@
         font-size: 16px;
     }
 
-    .profile-pic {
-        position: absolute;
-        margin-bottom: 3rem;
+    .profil-picture {
+        width: 200px;
+        height: 200px;
+        margin-top: 25px;
+        border-radius: 150px;
+        overflow: hidden;
+        box-shadow: 1px 5px 15px #6477b4;
     }
 
     .btn.cv {
@@ -50,28 +54,23 @@
         box-shadow: 1px 5px 15px #6477b4;
     }
 
-.resume {
-    border-radius: 20px;
-    background-color: #323C55;
-    padding: 20px;
-    font-family: "nimbus-regular";
-    font-size: 32px;
-    margin-top: 50px;
-    width: 95vw;
-}
+    .resume {
+        border-radius: 20px;
+        background-color: #323C55;
+        padding: 20px;
+        font-family: "nimbus-regular";
+        font-size: 32px;
+        margin-top: 50px;
+        width: 95vw;
+    }
 
-.profile-pic {
-    position: absolute;
-    margin-bottom: 3rem;
-}
+    .btn.cv {
+        width: 70vw;
+        margin: 2rem;
+    }
 
-.btn.cv {
-    width: 70vw;
-    margin: 2rem;
-}
-
-.cv-button {
-    display: flex;
-    justify-content: center;
-}
+    .cv-button {
+        display: flex;
+        justify-content: center;
+    }
 }

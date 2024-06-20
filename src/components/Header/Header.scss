@@ -9,6 +9,11 @@
         text-align: center;
     }
 
+    .icon-media {
+        width: 50px;
+        margin: 1em;
+    }
+
     .intro h1 {
         font-weight: bold;
         font-size: 1.7em;
@@ -43,12 +48,18 @@
 
     .intro h1 {
         font-weight: bold;
-        font-size: 3em;
+        font-size: 4em;
+        margin-bottom: 2rem;
     }
 
     .intro h2 {
         color: #8B5FE7;
         font-size: 6em;
         font-family: "nimbus-bold-c";
+    }
+
+    .icon-media {
+        width: 100px;
+        margin: 3em;
     }
 }
